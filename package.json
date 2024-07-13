@@ -1,0 +1,20 @@
+{
+  "name": "lambdaawsyt",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "zip": "zip -r reportGenAWS.zip . -x '*.git*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sparticuz/chromium": "^123.0.1",
+    "puppeteer-core": "^22.13.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
